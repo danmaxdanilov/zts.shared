@@ -2,8 +2,9 @@ package mediatr
 
 import (
 	"context"
-	"github.com/goccy/go-reflect"
 	"testing"
+
+	"github.com/goccy/go-reflect"
 )
 
 func Benchmark_Send(b *testing.B) {
