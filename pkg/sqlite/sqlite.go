@@ -29,7 +29,7 @@ func NewDbContext(
 func initDb(logger logger.Logger, config Config) *gorm.DB {
 	db, err := gorm.Open(sqlite.Open(config.DbPath), &config.GormConfig)
 	if err != nil {
-		logger.Fatal("Couldn't initialize database")
+		logger.Fatalf("Couldn't initialize database. %v", err)
 		return nil
 	}
 
