@@ -10,3 +10,4 @@ go get github.com/danmaxdanilov/zts.shared/cmd/mediatr@v0.1.0
 TAG NEW VERSION
 git tag v0.1.0
 git tag v0.1.1
+git tag v0.1.2
