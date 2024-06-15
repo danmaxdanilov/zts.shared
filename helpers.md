@@ -11,3 +11,5 @@ TAG NEW VERSION
 git tag v0.1.0
 git tag v0.1.1
 git tag v0.1.2
+
+git push origin --tags
