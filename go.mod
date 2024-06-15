@@ -7,6 +7,7 @@ require (
 	github.com/goccy/go-reflect v1.2.0
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.8.1
+	gorm.io/driver/sqlite v1.5.6
 )
 
 require (
@@ -25,11 +26,14 @@ require (
 	github.com/jackc/pgservicefile v0.0.0-20200714003250-2b9c44734f2b // indirect
 	github.com/jackc/pgtype v1.12.0 // indirect
 	github.com/jackc/puddle v1.3.0 // indirect
+	github.com/jinzhu/inflection v1.0.0 // indirect
+	github.com/jinzhu/now v1.1.5 // indirect
 	github.com/klauspost/compress v1.15.7 // indirect
 	github.com/labstack/gommon v0.4.0 // indirect
 	github.com/leodido/go-urn v1.2.1 // indirect
 	github.com/mattn/go-colorable v0.1.11 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
+	github.com/mattn/go-sqlite3 v1.14.22 // indirect
 	github.com/montanaflynn/stats v0.0.0-20171201202039-1bf9dbcd8cbe // indirect
 	github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e // indirect
 	github.com/pierrec/lz4/v4 v4.1.15 // indirect
@@ -70,4 +74,5 @@ require (
 	go.uber.org/zap v1.27.0
 	google.golang.org/grpc v1.50.1
 	gopkg.in/yaml.v3 v3.0.1 // indirect
+	gorm.io/gorm v1.25.10
 )
